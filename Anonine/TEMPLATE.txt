@@ -1,0 +1,28 @@
+client
+dev tun
+proto udp
+
+remote-cert-tls server
+cipher AES-256-CBC
+
+resolv-retry infinite
+
+auth-user-pass #PASS
+keepalive 10 30
+auth SHA384
+
+remote #SERVER #PORT
+persist-key
+persist-remote-ip
+nobind
+
+sndbuf 0
+rcvbuf 0
+
+verb 2
+
+key-direction 1
+
+ca #CERT
+tls-auth #TLSKEY
+

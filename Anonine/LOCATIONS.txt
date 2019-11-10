@@ -1,0 +1,2 @@
+Sweden,se-private.anonine.net,443
+United Kingdom BBC iPlayer,uk-bbc-iplayer.anonine.net,443
